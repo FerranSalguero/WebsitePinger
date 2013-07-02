@@ -20,6 +20,9 @@ That's all!
 
 ###TODO
 
-[ ] Log data, use NLog and config Logentries in web.config
-[ ] Get feedback on offline urls
+* Log data, use NLog and config Logentries in web.config
+* Get feedback on offline urls
+
+--------------
+[ ] and [x] don't work yet
 
