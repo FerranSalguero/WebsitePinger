@@ -8,8 +8,8 @@
     <ProjectGuid>{5B537CCC-ACAC-432D-9BA9-A9DA73AC121F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>website_pinger</RootNamespace>
-    <AssemblyName>website-pinger</AssemblyName>
+    <RootNamespace>WebsitePinger</RootNamespace>
+    <AssemblyName>WebsitePinger</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Models\WebServiceConfig.cs" />
+    <Compile Include="WebServicesPinger.cs" />
     <Compile Include="WebsitePinger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
