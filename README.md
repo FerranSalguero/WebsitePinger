@@ -1,9 +1,9 @@
 WebsitePinger
 =============
 
-This is a simple project to ping websites, it is really useful for websites hosted on IIS servers with low traffic, thinking mainly on my demo projects hosted on **AppHarbor**.
+This is a simple project to ping websites and webservices, it is really useful for websites hosted on IIS servers with low traffic, thinking mainly on my demo projects hosted on **AppHarbor**.
 
-Pinging your website will make the page load much faster for other visitors as starting the worker process on AppHarbor takes its time.
+Pinging your website or service will make the page load much faster for other visitors as starting the worker process on AppHarbor takes its time.
 
 This project can be forked and you can host it in your home server or at AppHarbor. Also there are a few improvements that can be done, listed on the TODO list at the end of the document.
 
@@ -22,6 +22,7 @@ That's all!
 
 * Log data, use NLog and config Logentries in web.config
 * Get feedback on offline urls
+* Implement IOC
 
 --------------
 [ ] and [x] don't work yet
