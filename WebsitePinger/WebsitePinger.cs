@@ -15,7 +15,7 @@ namespace WebsitePinger
                 "http://raquelestrada.apphb.com/",
                 "http://wmhomepage.apphb.com/",
                 "http://twitter-stats.apphb.com/",
-
+                "http://raffello.apphb.com/",
             };
 
             using (var client = new WebClient())
