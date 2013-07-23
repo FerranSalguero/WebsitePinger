@@ -1,7 +1,7 @@
 WebsitePinger
 =============
 
-This is a simple project to ping websites and webservices, it is really useful for websites hosted on IIS servers with low traffic, thinking mainly on my demo projects hosted on **AppHarbor**.
+This is a simple project to ping websites and webservices, it is really useful for websites hosted on IIS servers with low traffic, thinking mainly on my concept-projects hosted on **AppHarbor**.
 
 Pinging your website or service will make the page load much faster for other visitors as starting the worker process on AppHarbor takes its time.
 
