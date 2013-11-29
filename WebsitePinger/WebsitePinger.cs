@@ -16,6 +16,7 @@ namespace WebsitePinger
                 "http://wmhomepage.apphb.com/",
                 "http://twitter-stats.apphb.com/",
                 "http://raffello.apphb.com/",
+                "http://wmservice.apphb.com/"
             };
 
             using (var client = new WebClient())
