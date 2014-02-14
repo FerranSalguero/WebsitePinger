@@ -12,7 +12,7 @@ namespace WebsitePinger
             // TODO: use IOC
 
             new WebsitePinger();
-            new WebServicesPinger();
+            //new WebServicesPinger();
 
             return 1; // return code != 0 to re-execute
         }
