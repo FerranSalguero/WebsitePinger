@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WebsitePinger.Bootstrapper</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Models\Sitemap.cs" />
     <Compile Include="Models\WebServiceConfig.cs" />
+    <Compile Include="SitemapPinger.cs" />
     <Compile Include="WebServicesPinger.cs" />
     <Compile Include="WebsitePinger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
