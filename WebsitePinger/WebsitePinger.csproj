@@ -47,7 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Models\Sitemap.cs" />
+    <Compile Include="Models\PingerWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Models\SitemapIndex.cs" />
+    <Compile Include="Models\UrlSet.cs" />
     <Compile Include="Models\WebServiceConfig.cs" />
     <Compile Include="SitemapPinger.cs" />
     <Compile Include="WebServicesPinger.cs" />

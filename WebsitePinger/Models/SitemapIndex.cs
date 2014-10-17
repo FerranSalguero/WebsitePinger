@@ -10,8 +10,8 @@ namespace WebsitePinger.Models
     [XmlRoot("sitemapindex", Namespace = "http://www.sitemaps.org/schemas/sitemap/0.9")]
     public class SitemapIndex
     {
-        [XmlAttribute("xmlns")]
-        public string Xmlns { get; set; }
+        //[XmlAttribute("xmlns")]
+        //public string Xmlns { get; set; }
 
         [XmlElement("sitemap")]
         public List<Sitemap> Sitemaps { get; set; }
