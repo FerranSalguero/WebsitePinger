@@ -52,12 +52,12 @@ namespace WebsitePinger
                             Console.WriteLine("Pinging " + urlToPing.loc);
                             try
                             {
-
                                 client.DownloadData(new Uri(urlToPing.loc));
                             }
                             catch (Exception exc)
                             {
-                                throw new Exception("Error downloading page: " + urlToPing.loc, exc);
+                                // log to logentries...
+                                //throw new Exception("Error downloading page: " + urlToPing.loc, exc);
                             }
                         }
                     }
