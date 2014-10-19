@@ -13,7 +13,7 @@ namespace WebsitePinger
 
             //new WebsitePinger();
             //new WebServicesPinger();
-            //new SitemapPinger();
+            new SitemapPinger();
 
             return 1; // return code != 0 to re-execute
         }
