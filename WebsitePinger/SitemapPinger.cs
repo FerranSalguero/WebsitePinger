@@ -16,7 +16,8 @@ namespace WebsitePinger
         public SitemapPinger()
         {
             string[] urls = new string[] {
-                "http://whereshouldibuy.apphb.com/sitemap/Index",
+                "https://whereshouldibuy.apphb.com/sitemap/toppages",
+                //"http://whereshouldibuy.apphb.com/sitemap/Index",
                 //"http://localhost:1274/sitemap/index"
             };
 
@@ -27,20 +28,20 @@ namespace WebsitePinger
                 //client.Proxy = new WebProxy("http://10.49.1.1:8080");
                 foreach (var url in urls)
                 {
-                    SitemapIndex index = null;
-                    using (var reader = client.OpenRead(url))
-                    {
-                        var s = new XmlSerializer(typeof(SitemapIndex));
+                    //SitemapIndex index = null;
+                    //using (var reader = client.OpenRead(url))
+                    //{
+                    //    var s = new XmlSerializer(typeof(SitemapIndex));
 
-                        index = (SitemapIndex)s.Deserialize(reader);
-                    }
+                    //    index = (SitemapIndex)s.Deserialize(reader);
+                    //}
 
-                    Console.WriteLine("sitemaps to ping -> " + index.Sitemaps.Count);
+                    //Console.WriteLine("sitemaps to ping -> " + index.Sitemaps.Count);
 
-                    foreach (var sitemap in index.Sitemaps)
-                    {
+                    //foreach (var sitemap in index.Sitemaps)
+                    //{
                         UrlSet urlSet = null;
-                        using (var reader = client.OpenRead(sitemap.loc))
+                        using (var reader = client.OpenRead(url))
                         {
                             var s = new XmlSerializer(typeof(UrlSet));
                             urlSet = (UrlSet)s.Deserialize(reader);
@@ -62,7 +63,7 @@ namespace WebsitePinger
                             }
                             Thread.Sleep(1000);
                         }
-                    }
+                    //}
                 }
 
                 Console.WriteLine("ended at " + DateTime.UtcNow.ToShortTimeString());
