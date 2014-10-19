@@ -7,6 +7,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using WebsitePinger.Models;
 using System.IO;
+using System.Threading;
 
 namespace WebsitePinger
 {
@@ -59,7 +60,7 @@ namespace WebsitePinger
                                 // log to logentries...
                                 //throw new Exception("Error downloading page: " + urlToPing.loc, exc);
                             }
-							Thread.Sleep(100);
+                            Thread.Sleep(1000);
                         }
                     }
                 }
