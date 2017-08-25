@@ -16,9 +16,7 @@ namespace WebsitePinger
         public SitemapPinger()
         {
             string[] urls = new string[] {
-                "https://whereshouldibuy.apphb.com/sitemap/toppages",
-                //"http://whereshouldibuy.apphb.com/sitemap/Index",
-                //"http://localhost:1274/sitemap/index"
+                "https://telemetry.apphb.com/Activities"
             };
 
             Console.WriteLine("starting at " + DateTime.UtcNow.ToShortTimeString());
