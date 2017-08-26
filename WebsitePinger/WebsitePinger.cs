@@ -12,11 +12,7 @@ namespace WebsitePinger
         public WebsitePinger()
         {
             string[] urls = new string[] {
-                "http://raquelestrada.apphb.com/",
-                "http://wmhomepage.apphb.com/",
-                "http://twitter-stats.apphb.com/",
-                "http://glimpse.apphb.com/WCFService.svc",
-                "http://motivate.apphb.com"
+                "https://telemetry.apphb.com/"
             };
 
             using (var client = new WebClient())
