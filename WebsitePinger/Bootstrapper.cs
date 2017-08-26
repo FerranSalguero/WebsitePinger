@@ -11,13 +11,13 @@ namespace WebsitePinger
         {
             // TODO: use IOC
 
-            //new WebsitePinger();
+            new WebsitePinger();
             //new WebServicesPinger();
             //new SitemapPinger();
 
             //return 1; // return code != 0 to re-execute
 
-return 0;
+return 1;
         }
     }
 }
