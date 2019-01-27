@@ -47,7 +47,7 @@ namespace WebsitePinger
 
                         Console.WriteLine("Urls to ping -> " + urlSet.Urls.Count);
 
-                        foreach (var urlToPing in urlSet.Urls)
+                        /*foreach (var urlToPing in urlSet.Urls)
                         {
                             Console.WriteLine("Pinging " + urlToPing.loc);
                             try
@@ -60,7 +60,7 @@ namespace WebsitePinger
                                 //throw new Exception("Error downloading page: " + urlToPing.loc, exc);
                             }
                             Thread.Sleep(6000);
-                        }
+                        }*/
                         //}
                     }
 
