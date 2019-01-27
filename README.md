@@ -24,6 +24,6 @@ That's all!
 * Get feedback on offline urls
 * Implement IOC
 
---------------
+----------------
 [ ] and [x] don't work yet
 
