@@ -13,7 +13,7 @@ namespace WebsitePinger
         {
             string[] urls = new string[] {
                 "https://telemetry.apphb.com/",
-                "https://whereshouldibuy.apphb.com/",
+                // "https://whereshouldibuy.apphb.com/",
                 "https://motivate.apphb.com/"
             };
 
